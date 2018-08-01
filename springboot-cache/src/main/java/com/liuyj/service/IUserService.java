@@ -10,6 +10,8 @@ import com.liuyj.bean.User;
 public interface IUserService {
     User addUser(User user);
 
+    User addAdmin(User user);
+
     User findUser(String id);
 
     void deleteUser(String id);

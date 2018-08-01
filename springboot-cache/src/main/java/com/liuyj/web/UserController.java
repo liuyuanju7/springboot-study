@@ -21,6 +21,11 @@ public class UserController {
         userService.addUser(user);
     }
 
+    @PostMapping("/addAdmin")
+    public void addAdmin(@RequestBody User user){
+        userService.addAdmin(user);
+    }
+
     @GetMapping("/{id}")
     public User findUser(@PathVariable String id){
         return userService.findUser(id);
