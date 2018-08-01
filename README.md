@@ -8,4 +8,4 @@ springboot 各功能模块学习 demo
   # springboot-jpa
     springboot整合 spring data jpa
   # java8-demo
-    java8 lanbda xin
+    java8 lanbda stream  使用实例
