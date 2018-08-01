@@ -7,3 +7,5 @@ springboot 各功能模块学习 demo
     4.springboot 整合mybatis
   # springboot-jpa
     springboot整合 spring data jpa
+  # java8-demo
+    java8 lanbda xin
