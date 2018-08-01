@@ -1,0 +1,11 @@
+spring:
+  cache:
+    type: gu
+
+guava:
+  cache:
+    config:
+      maximum-size: 1024
+      expire-after-access-duration: 3600
+
+

@@ -17,12 +17,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="java8-demo" />
+        <module name="springboot-cache" />
         <module name="springboot-demo" />
         <module name="springboot-jpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="java8-demo" target="1.5" />
+      <module name="springboot-cache" target="1.8" />
       <module name="springboot-demo" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
     </bytecodeTargetLevel>
