@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="696c35e1-e136-40ea-84c9-1ae490e51690" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-cache/src/main/java/com/liuyj/service/IUserService.java" afterPath="$PROJECT_DIR$/springboot-cache/src/main/java/com/liuyj/service/IUserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-cache/src/main/java/com/liuyj/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/springboot-cache/src/main/java/com/liuyj/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-cache/src/main/java/com/liuyj/web/UserController.java" afterPath="$PROJECT_DIR$/springboot-cache/src/main/java/com/liuyj/web/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8-demo/src/main/java/lambda/Demo.java" afterPath="$PROJECT_DIR$/java8-demo/src/main/java/lambda/Demo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/java8-demo/target/" />
     <ignored path="$PROJECT_DIR$/springboot-demo/target/" />
@@ -21,18 +20,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DemoApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-cache/src/main/java/com/liuyj/DemoApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-cache/src/main/java/com/liuyj/service/IUserService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,11 +57,21 @@
       <file leaf-file-name="GuavaCacheConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-cache/src/main/java/com/liuyj/config/GuavaCacheConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="836">
+              <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java8-demo/src/main/java/lambda/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="220" column="32" lean-forward="true" selection-start-line="220" selection-start-column="32" selection-end-line="220" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/springboot-cache/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CacheService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CacheService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-cache/src/main/java/com/liuyj/service/CacheService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -189,6 +186,7 @@
         <option value="$PROJECT_DIR$/springboot-cache/src/main/java/com/liuyj/service/IUserService.java" />
         <option value="$PROJECT_DIR$/springboot-cache/src/main/java/com/liuyj/web/UserController.java" />
         <option value="$PROJECT_DIR$/springboot-cache/src/main/java/com/liuyj/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/java8-demo/src/main/java/lambda/Demo.java" />
       </list>
     </option>
   </component>
@@ -441,6 +439,96 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java8-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java8-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java8-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java8-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lambda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java8-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -901,6 +989,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\liuyuanju1\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="696c35e1-e136-40ea-84c9-1ae490e51690" name="Default" comment="" />
@@ -908,7 +999,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533087128098</updated>
-      <workItem from="1533087131527" duration="15593000" />
+      <workItem from="1533087131527" duration="17472000" />
     </task>
     <task id="LOCAL-00001" summary="xml">
       <created>1533093498283</created>
@@ -924,11 +1015,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533109828169</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="springboot-cache: 根据条件判断是否加入缓存">
+      <created>1533110640748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533110640748</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15593000" />
+    <option name="totallyTimeSpent" value="17472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
@@ -975,7 +1073,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xml" />
     <MESSAGE value="springboot-cache" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot-cache" />
+    <MESSAGE value="springboot-cache: 根据条件判断是否加入缓存" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot-cache: 根据条件判断是否加入缓存" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1001,18 +1100,6 @@
         <state relative-caret-position="720">
           <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java8-demo/src/main/java/lambda/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#942#1086#0" expanded="false" />
-            <element signature="e#1085#1086#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1258,20 +1345,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-cache/src/main/java/com/liuyj/config/GuavaCacheConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-cache/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1319,6 +1396,24 @@
             <element signature="e#582#583#0" expanded="true" />
             <element signature="e#633#634#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-cache/src/main/java/com/liuyj/config/GuavaCacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java8-demo/src/main/java/lambda/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="220" column="32" lean-forward="true" selection-start-line="220" selection-start-column="32" selection-end-line="220" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -8,6 +8,7 @@ import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * @author liuyuanju1
@@ -208,5 +209,18 @@ public class Demo {
         System.out.println("平均值: " + statistics.getAverage());
         System.out.println("总和: " + statistics.getSum());
         System.out.println("个数: " + statistics.getCount());
+    }
+
+    /**
+     * Stream.generate(Supplier<T>) 获取无线长的 stream
+     * iterate(T seed, UnaryOperator<T> f) 依据种子生成
+     */
+    @Test
+    public void test12(){
+        Stream<Double> doubleStream = Stream.generate(() -> java.lang.Math.random());
+        doubleStream.limit(10).forEach(e -> System.out.println(e));
+
+        Stream.iterate(1,item -> item+1)
+                .limit(10).forEach(e -> System.out.println(e));
     }
 }
